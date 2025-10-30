@@ -19,4 +19,9 @@ func TestSum(t *testing.T) {
 		t.Errorf("Times(2, 2) = %d; want 4", result)
 	}
 
+	result = sumX(2, 2)
+	if result != 6 {
+		t.Errorf("SumX(2, 2) = %d; want 6", result)
+	}
+
 }
